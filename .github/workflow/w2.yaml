@@ -1,0 +1,12 @@
+
+name: Mi segundo workflow
+on: 
+  pull_request:
+    branches:
+      -main
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps: 
+      -name: step 1
+       uses: actions/checkout@v2

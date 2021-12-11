@@ -1,0 +1,11 @@
+name: Mi primer workflow
+on: 
+  push:
+    branches:
+      -main
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps: 
+      -name: step 1
+       uses: actions/checkout@v2
